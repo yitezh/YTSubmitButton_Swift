@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3523461225EDB3600440675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3523460225EDB3600440675 /* AppDelegate.swift */; };
+		E3523463225EDB3600440675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3523462225EDB3600440675 /* ViewController.swift */; };
+		E3523466225EDB3700440675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3523464225EDB3700440675 /* Main.storyboard */; };
+		E3523468225EDB3D00440675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3523467225EDB3D00440675 /* Assets.xcassets */; };
+		E352346B225EDB3D00440675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3523469225EDB3D00440675 /* LaunchScreen.storyboard */; };
+		E3523476225EDB3E00440675 /* YTSubmitButton_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3523475225EDB3E00440675 /* YTSubmitButton_SwiftTests.swift */; };
+		E3523481225EDB3E00440675 /* YTSubmitButton_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3523480225EDB3E00440675 /* YTSubmitButton_SwiftUITests.swift */; };
+		EB305DFB23274BEA00417406 /* UIView+ReFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB305DF723274BEA00417406 /* UIView+ReFrame.swift */; };
+		EB305DFC23274BEA00417406 /* v.gif in Resources */ = {isa = PBXBuildFile; fileRef = EB305DF823274BEA00417406 /* v.gif */; };
+		EB305DFD23274BEA00417406 /* YTSubmitAnimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB305DF923274BEA00417406 /* YTSubmitAnimateView.swift */; };
+		EB305DFE23274BEA00417406 /* YTSubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB305DFA23274BEA00417406 /* YTSubmitButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3523472225EDB3E00440675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3523455225EDB3600440675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E352345C225EDB3600440675;
+			remoteInfo = YTSubmitButton_Swift;
+		};
+		E352347D225EDB3E00440675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3523455225EDB3600440675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E352345C225EDB3600440675;
+			remoteInfo = YTSubmitButton_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E352345D225EDB3600440675 /* YTSubmitButton_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTSubmitButton_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3523460225EDB3600440675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3523462225EDB3600440675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3523465225EDB3700440675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3523467225EDB3D00440675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E352346A225EDB3D00440675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E352346C225EDB3D00440675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3523471225EDB3E00440675 /* YTSubmitButton_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTSubmitButton_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3523475225EDB3E00440675 /* YTSubmitButton_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTSubmitButton_SwiftTests.swift; sourceTree = "<group>"; };
+		E3523477225EDB3E00440675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E352347C225EDB3E00440675 /* YTSubmitButton_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTSubmitButton_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3523480225EDB3E00440675 /* YTSubmitButton_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTSubmitButton_SwiftUITests.swift; sourceTree = "<group>"; };
+		E3523482225EDB3E00440675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB305DF723274BEA00417406 /* UIView+ReFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ReFrame.swift"; sourceTree = "<group>"; };
+		EB305DF823274BEA00417406 /* v.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = v.gif; sourceTree = "<group>"; };
+		EB305DF923274BEA00417406 /* YTSubmitAnimateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTSubmitAnimateView.swift; sourceTree = "<group>"; };
+		EB305DFA23274BEA00417406 /* YTSubmitButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTSubmitButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E352345A225EDB3600440675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E352346E225EDB3E00440675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3523479225EDB3E00440675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3523454225EDB3600440675 = {
+			isa = PBXGroup;
+			children = (
+				E352345F225EDB3600440675 /* YTSubmitButton_Swift */,
+				E3523474225EDB3E00440675 /* YTSubmitButton_SwiftTests */,
+				E352347F225EDB3E00440675 /* YTSubmitButton_SwiftUITests */,
+				E352345E225EDB3600440675 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E352345E225EDB3600440675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E352345D225EDB3600440675 /* YTSubmitButton_Swift.app */,
+				E3523471225EDB3E00440675 /* YTSubmitButton_SwiftTests.xctest */,
+				E352347C225EDB3E00440675 /* YTSubmitButton_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E352345F225EDB3600440675 /* YTSubmitButton_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				EB305DF623274BEA00417406 /* vender_s */,
+				E3523460225EDB3600440675 /* AppDelegate.swift */,
+				E3523462225EDB3600440675 /* ViewController.swift */,
+				E3523464225EDB3700440675 /* Main.storyboard */,
+				E3523467225EDB3D00440675 /* Assets.xcassets */,
+				E3523469225EDB3D00440675 /* LaunchScreen.storyboard */,
+				E352346C225EDB3D00440675 /* Info.plist */,
+			);
+			path = YTSubmitButton_Swift;
+			sourceTree = "<group>";
+		};
+		E3523474225EDB3E00440675 /* YTSubmitButton_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3523475225EDB3E00440675 /* YTSubmitButton_SwiftTests.swift */,
+				E3523477225EDB3E00440675 /* Info.plist */,
+			);
+			path = YTSubmitButton_SwiftTests;
+			sourceTree = "<group>";
+		};
+		E352347F225EDB3E00440675 /* YTSubmitButton_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3523480225EDB3E00440675 /* YTSubmitButton_SwiftUITests.swift */,
+				E3523482225EDB3E00440675 /* Info.plist */,
+			);
+			path = YTSubmitButton_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		EB305DF623274BEA00417406 /* vender_s */ = {
+			isa = PBXGroup;
+			children = (
+				EB305DF723274BEA00417406 /* UIView+ReFrame.swift */,
+				EB305DF823274BEA00417406 /* v.gif */,
+				EB305DF923274BEA00417406 /* YTSubmitAnimateView.swift */,
+				EB305DFA23274BEA00417406 /* YTSubmitButton.swift */,
+			);
+			path = vender_s;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E352345C225EDB3600440675 /* YTSubmitButton_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3523485225EDB3E00440675 /* Build configuration list for PBXNativeTarget "YTSubmitButton_Swift" */;
+			buildPhases = (
+				E3523459225EDB3600440675 /* Sources */,
+				E352345A225EDB3600440675 /* Frameworks */,
+				E352345B225EDB3600440675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YTSubmitButton_Swift;
+			productName = YTSubmitButton_Swift;
+			productReference = E352345D225EDB3600440675 /* YTSubmitButton_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3523470225EDB3E00440675 /* YTSubmitButton_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3523488225EDB3E00440675 /* Build configuration list for PBXNativeTarget "YTSubmitButton_SwiftTests" */;
+			buildPhases = (
+				E352346D225EDB3E00440675 /* Sources */,
+				E352346E225EDB3E00440675 /* Frameworks */,
+				E352346F225EDB3E00440675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3523473225EDB3E00440675 /* PBXTargetDependency */,
+			);
+			name = YTSubmitButton_SwiftTests;
+			productName = YTSubmitButton_SwiftTests;
+			productReference = E3523471225EDB3E00440675 /* YTSubmitButton_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E352347B225EDB3E00440675 /* YTSubmitButton_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E352348B225EDB3E00440675 /* Build configuration list for PBXNativeTarget "YTSubmitButton_SwiftUITests" */;
+			buildPhases = (
+				E3523478225EDB3E00440675 /* Sources */,
+				E3523479225EDB3E00440675 /* Frameworks */,
+				E352347A225EDB3E00440675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E352347E225EDB3E00440675 /* PBXTargetDependency */,
+			);
+			name = YTSubmitButton_SwiftUITests;
+			productName = YTSubmitButton_SwiftUITests;
+			productReference = E352347C225EDB3E00440675 /* YTSubmitButton_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3523455225EDB3600440675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = yitezh;
+				TargetAttributes = {
+					E352345C225EDB3600440675 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					E3523470225EDB3E00440675 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = E352345C225EDB3600440675;
+					};
+					E352347B225EDB3E00440675 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = E352345C225EDB3600440675;
+					};
+				};
+			};
+			buildConfigurationList = E3523458225EDB3600440675 /* Build configuration list for PBXProject "YTSubmitButton_Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3523454225EDB3600440675;
+			productRefGroup = E352345E225EDB3600440675 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E352345C225EDB3600440675 /* YTSubmitButton_Swift */,
+				E3523470225EDB3E00440675 /* YTSubmitButton_SwiftTests */,
+				E352347B225EDB3E00440675 /* YTSubmitButton_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E352345B225EDB3600440675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E352346B225EDB3D00440675 /* LaunchScreen.storyboard in Resources */,
+				E3523468225EDB3D00440675 /* Assets.xcassets in Resources */,
+				E3523466225EDB3700440675 /* Main.storyboard in Resources */,
+				EB305DFC23274BEA00417406 /* v.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E352346F225EDB3E00440675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E352347A225EDB3E00440675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3523459225EDB3600440675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3523463225EDB3600440675 /* ViewController.swift in Sources */,
+				EB305DFB23274BEA00417406 /* UIView+ReFrame.swift in Sources */,
+				E3523461225EDB3600440675 /* AppDelegate.swift in Sources */,
+				EB305DFE23274BEA00417406 /* YTSubmitButton.swift in Sources */,
+				EB305DFD23274BEA00417406 /* YTSubmitAnimateView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E352346D225EDB3E00440675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3523476225EDB3E00440675 /* YTSubmitButton_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3523478225EDB3E00440675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3523481225EDB3E00440675 /* YTSubmitButton_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3523473225EDB3E00440675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E352345C225EDB3600440675 /* YTSubmitButton_Swift */;
+			targetProxy = E3523472225EDB3E00440675 /* PBXContainerItemProxy */;
+		};
+		E352347E225EDB3E00440675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E352345C225EDB3600440675 /* YTSubmitButton_Swift */;
+			targetProxy = E352347D225EDB3E00440675 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3523464225EDB3700440675 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3523465225EDB3700440675 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3523469225EDB3D00440675 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E352346A225EDB3D00440675 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3523483225EDB3E00440675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3523484225EDB3E00440675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3523486225EDB3E00440675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HP3F44276K;
+				INFOPLIST_FILE = YTSubmitButton_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yitezh.YTSubmitButton-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3523487225EDB3E00440675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HP3F44276K;
+				INFOPLIST_FILE = YTSubmitButton_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yitezh.YTSubmitButton-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3523489225EDB3E00440675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HP3F44276K;
+				INFOPLIST_FILE = YTSubmitButton_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yitezh.YTSubmitButton-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTSubmitButton_Swift.app/YTSubmitButton_Swift";
+			};
+			name = Debug;
+		};
+		E352348A225EDB3E00440675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HP3F44276K;
+				INFOPLIST_FILE = YTSubmitButton_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yitezh.YTSubmitButton-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YTSubmitButton_Swift.app/YTSubmitButton_Swift";
+			};
+			name = Release;
+		};
+		E352348C225EDB3E00440675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HP3F44276K;
+				INFOPLIST_FILE = YTSubmitButton_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yitezh.YTSubmitButton-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTSubmitButton_Swift;
+			};
+			name = Debug;
+		};
+		E352348D225EDB3E00440675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HP3F44276K;
+				INFOPLIST_FILE = YTSubmitButton_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yitezh.YTSubmitButton-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YTSubmitButton_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3523458225EDB3600440675 /* Build configuration list for PBXProject "YTSubmitButton_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3523483225EDB3E00440675 /* Debug */,
+				E3523484225EDB3E00440675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3523485225EDB3E00440675 /* Build configuration list for PBXNativeTarget "YTSubmitButton_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3523486225EDB3E00440675 /* Debug */,
+				E3523487225EDB3E00440675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3523488225EDB3E00440675 /* Build configuration list for PBXNativeTarget "YTSubmitButton_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3523489225EDB3E00440675 /* Debug */,
+				E352348A225EDB3E00440675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E352348B225EDB3E00440675 /* Build configuration list for PBXNativeTarget "YTSubmitButton_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E352348C225EDB3E00440675 /* Debug */,
+				E352348D225EDB3E00440675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3523455225EDB3600440675 /* Project object */;
+}
